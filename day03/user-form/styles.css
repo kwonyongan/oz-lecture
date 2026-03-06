@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* 가상 요소 ::after 사용 */
+h1::after {
+  content: " 📝";
+}
+
+#registration-form {
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+/* 가상 클래스 :first-child 사용 */
+form > p:first-child {
+  border-top: 3px solid #007bff;
+  padding-top: 15px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+/* 가상 클래스 :hover 사용 */
+.form-group:hover {
+  background-color: #f9f9f9;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* 가상 클래스 :focus 사용 */
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+select:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+button[type="submit"],
+button[type="reset"] {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+button[type="reset"] {
+  background-color: #6c757d;
+}
+
+/* 가상 클래스 :hover 사용 (버튼) */
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+button[type="reset"]:hover {
+  background-color: #5a6268;
+}
+
+form p {
+  padding: 15px;
+}
+
+form > p {
+  border-bottom: 1px solid #eee;
+}
+
+/* 마지막 요소 테두리 제거 */
+form > p:last-child {
+  border-bottom: none;
+  text-align: center;
+}
+
+label {
+  display: inline-block;
+  width: 100px;
+  font-weight: bold;
+}
+
+select {
+  width: 100%;
+  border: 1px solid #ccc;
+  padding: 8px;
+  border-radius: 4px;
+}
