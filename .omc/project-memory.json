@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastScanned": 1773246307880,
+  "lastScanned": 1773607082076,
   "projectRoot": "/Users/admin/Desktop/oz-lecture",
   "techStack": {
     "languages": [],
@@ -33,14 +33,14 @@
       "path": "day-01",
       "purpose": null,
       "fileCount": 1,
-      "lastAccessed": 1773246307864,
+      "lastAccessed": 1773607082063,
       "keyFiles": []
     },
     "day01": {
       "path": "day01",
       "purpose": null,
       "fileCount": 2,
-      "lastAccessed": 1773246307864,
+      "lastAccessed": 1773607082063,
       "keyFiles": [
         "first.html",
         "second.html"
@@ -50,7 +50,7 @@
       "path": "day02",
       "purpose": null,
       "fileCount": 5,
-      "lastAccessed": 1773246307865,
+      "lastAccessed": 1773607082063,
       "keyFiles": [
         "form.html",
         "multimedia.html",
@@ -62,7 +62,7 @@
       "path": "day03",
       "purpose": null,
       "fileCount": 4,
-      "lastAccessed": 1773246307865,
+      "lastAccessed": 1773607082063,
       "keyFiles": [
         "my-website.html",
         "styles.css",
@@ -73,7 +73,7 @@
       "path": "day04",
       "purpose": null,
       "fileCount": 7,
-      "lastAccessed": 1773246307865,
+      "lastAccessed": 1773607082064,
       "keyFiles": [
         "display.html",
         "float.html",
@@ -86,7 +86,7 @@
       "path": "day05",
       "purpose": null,
       "fileCount": 1,
-      "lastAccessed": 1773246307865,
+      "lastAccessed": 1773607082064,
       "keyFiles": [
         "blog.zip"
       ]
@@ -95,38 +95,42 @@
       "path": "day07",
       "purpose": null,
       "fileCount": 0,
-      "lastAccessed": 1773246307865,
+      "lastAccessed": 1773607082064,
       "keyFiles": []
     },
     "day09": {
       "path": "day09",
       "purpose": null,
       "fileCount": 1,
-      "lastAccessed": 1773246307865,
+      "lastAccessed": 1773607082064,
       "keyFiles": [
         "index.html"
       ]
+    },
+    "day10": {
+      "path": "day10",
+      "purpose": null,
+      "fileCount": 2,
+      "lastAccessed": 1773607082064,
+      "keyFiles": [
+        "day10.js",
+        "index.html"
+      ]
+    },
+    "day11": {
+      "path": "day11",
+      "purpose": null,
+      "fileCount": 5,
+      "lastAccessed": 1773607082065,
+      "keyFiles": [
+        "dowhile.js",
+        "for.js",
+        "function.js",
+        "index.html",
+        "while.js"
+      ]
     }
   },
-  "hotPaths": [
-    {
-      "path": "day09/profile-generator/profile.js",
-      "accessCount": 6,
-      "lastAccessed": 1773246846254,
-      "type": "file"
-    },
-    {
-      "path": "day09/profile-generator/index.html",
-      "accessCount": 2,
-      "lastAccessed": 1773246842164,
-      "type": "file"
-    },
-    {
-      "path": "day09/profile-generator",
-      "accessCount": 1,
-      "lastAccessed": 1773246791687,
-      "type": "directory"
-    }
-  ],
+  "hotPaths": [],
   "userDirectives": []
 }
